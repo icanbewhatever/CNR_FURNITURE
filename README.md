@@ -449,7 +449,7 @@
 
 ## 🔧 아키텍처
 ####  * 서버 배포를 진행하지 않았음
-![C_R-FURNITURE-아키텍처](https://github.com/jihyeon00/CNR_FURNITURE/assets/120089047/2e26b54e-86aa-4711-ad6d-11b6d36f420e)
+![CNR-FURNITURE-아키텍처](https://github.com/jihyeon00/CNR_FURNITURE/assets/120089047/6721e683-61a4-4511-a7ee-3befc2fa7a59)
 <br><br>
 
 ## 🏗️ ERD
