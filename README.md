@@ -135,20 +135,20 @@
   <h3>자재/제품정보관리 - 등록</h3>
   <ul>
     <li>[제품등록] 버튼을 누르면 제품정보 등록 모달창이 뜬다.</li>
-    <li>제품 정보 입력 후, [등록] 버튼을 누르면 DB에 저장된다.</li>
+    <li>제품의 모든 정보를 입력 해야지만(예외: 제품번호), [등록] 버튼을 누르면 DB에 저장된다.</li>
     <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/4fad14e3-8670-4da3-b953-a88bde335404" alt="자재/제품정보 등록">
   </ul>
   <br>
   <h3>자재/제품정보관리 - 수정</h3>
   <ul>
     <li>[제품 목록]에서 원하는 행의 [수정] 버튼을 누르면 수정 모달창이 뜬다.</li>
-    <li>수정할 내용을 입력 후, [수정] 버튼을 누르면 DB에 저장된다.</li>
+    <li>수정할 내용을 입력 후(예외: 제품번호), [수정] 버튼을 누르면 DB에 저장된다.</li>
     <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/70ace592-ce92-4af7-89df-1b8d055bb2b8" alt="자재/제품정보 등록">
   </ul>
   <br>
   <h3>자재/제품정보관리 - 등록 및 sweetAlert2</h3>
   <ul>
-    <li>외부 라이브러리를 사용하여 등록 시, 등록 확인용 alert창이 뜬다.</li>
+    <li>외부 라이브러리를 사용하여 등록 시, 사용자에게 정확한 정보를 줄 수 있는 alert창이 뜬다.</li>
     <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/af1b1db0-e303-469e-9a5f-7841adb92c9d" alt="등록 및 sweetAlert2">
   </ul>
 </details>
@@ -158,19 +158,21 @@
   <br>
   <h3>BOM 관리 - 세부목록 조회</h3>
   <ul>
-    <li>제품번호 클릭 시, 해당하는 자재리스트를 조회할 수 있다.</li>
+    <li>제품번호 클릭 시, 해당하는 자재리스트를 화면에서 바로 조회할 수 있다.</li>
     <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/e5d0454b-2828-4f13-8cf2-923272e72988" alt="BOM 세부목록 조회">
   </ul>
   <br>
   <h3>BOM 관리 - 세부목록 수정</h3>
   <ul>
     <li>원하는 행의 [수정] 버튼을 누른 후 값을 입력하고 [수정] 버튼을 누르면 DB에 저장된다.</li>
+    <li>취소시 저장된 수량값이 DB에 다시 저장된다.</li>
     <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/d97aab8b-b26f-41bb-a83a-096e10483150" alt="BOM 수정">
   </ul>
   <br>
   <h3>BOM 관리 - BOM 등록</h3>
   <ul>
     <li>'제품번호', '자재번호'를 선택하고 '단위', '수량'을 입력한 후, [추가] 버튼을 누르면 DB에 저장된다.</li>
+    <li>등록된 '제품번호'와 '자재번호'가 존재할 경우, [추가] 버튼 클릭시 오류 메세지가 출력된다.</li>
     <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/2fd179a2-0b65-4c76-a657-331d633e9faa" alt="BOM 등록">
   </ul>
 </details>
@@ -181,6 +183,7 @@
   <h3>작업자 스케쥴 조회</h3>
   <ul>
     <li>구글 캘린더 API를 적용하여 작업자의 스케쥴을 조회할 수 있도록 했다.</li>
+    <li>select box의 option에서 검색 주제를 선택한 후, 키워드를 입력하여 검색하면 해당하는 내용의 목록을 볼 수 있다.</li>
     <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/f89201c2-f113-4e08-91e1-25d5cc13d0ed" alt="작업자 스케쥴 조회">
   </ul>
 </details>
